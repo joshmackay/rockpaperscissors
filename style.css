@@ -1,4 +1,70 @@
+html ,body{
+    height: 100vh;
+    background-color: rgb(191, 191, 191);
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 50px auto 50px auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;    
+    margin-bottom: 50px;
+}
+
+#messages{
+    display: flex;
+    justify-content: center;
+}
+
+#messages div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#player-score-display , #comp-score-display, p{
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+}
+
+#player-score-display , #comp-score-display{
+    font-size: 30px;
+    font-weight: 300;
+    height: 80px;
+}
+
+#messages{
+    justify-content: center;
+}
+
+
 button{
-    width: 400px;
-    height: 100px;
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 200px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px #888888;
+}
+
+#reset{
+    width: 200px;
+    height: 60px;
+    margin: 0 auto 0 auto;
 }
